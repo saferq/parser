@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-docx = "*"
+pandas = "*"
+xlrd = "*"
+openpyxl = "*"
+xarray = "*"
+beautifulsoup4 = "*"
+lxml = "*"
+requests = "*"
+xlsxwriter = "*"
+ipykernel = "*"
+feedparser = "*"
+selenium = "*"
+
+[dev-packages]
+autopep8 = "*"
+
+[requires]
+python_version = "3.9"
